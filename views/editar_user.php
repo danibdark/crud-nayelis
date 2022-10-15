@@ -18,7 +18,7 @@ if( $validar == null || $validar = ''){
 
 
 $id= $_GET['id'];
-$conexion= mysqli_connect("localhost", "root", "", "r_user");
+$conexion= mysqli_connect("bc7rtwdnwbhhfcob3up4-mysql.services.clever-cloud.com", "umbrbsgthdgiqe3c", "Tm85mgamgDcrZiRB0ffG", "bc7rtwdnwbhhfcob3up4");
 $consulta= "SELECT * FROM user WHERE id = $id";
 $resultado = mysqli_query($conexion, $consulta);
 $usuario = mysqli_fetch_assoc($resultado);
