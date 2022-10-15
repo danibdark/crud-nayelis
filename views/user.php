@@ -50,7 +50,7 @@ if( $validar == null || $validar = ''){
        <a class="btn btn-primary" href="../includes/excel.php">Excel
        <i class="fa fa-table" aria-hidden="true"></i>
        </a>
-       <a href="includes/reporte.php" class="btn btn-primary"><b>PDF</b> </a>
+       <a href="../includes/reporte.php" class="btn btn-primary"><b>PDF</b> </a>
 		</div>
 		<br>
 

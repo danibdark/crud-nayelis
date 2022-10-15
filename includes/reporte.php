@@ -49,7 +49,7 @@ function Footer()
 }
 }
 
-$conexion=mysqli_connect("localhost","root","","r_user");
+$conexion= mysqli_connect("bc7rtwdnwbhhfcob3up4-mysql.services.clever-cloud.com", "umbrbsgthdgiqe3c", "Tm85mgamgDcrZiRB0ffG", "bc7rtwdnwbhhfcob3up4");
 $consulta = "SELECT user.id, user.nombre, user.correo, user.password, user.telefono,
 user.fecha, permisos.rol FROM user
 LEFT JOIN permisos ON user.rol = permisos.id";
